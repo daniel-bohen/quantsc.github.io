@@ -44,7 +44,7 @@
   }
 }
 
-@media only screen and (min-device-width: 380px) and (min-device-height: 580px) {
+@media only screen and (min-device-width: 380px) and (max-device-height: 580px) {
   .paral p {
     font-size: 26px;
     margin-bottom: 0;
@@ -66,7 +66,7 @@
 
 /* Content for Parallax Section */
 #welcome-message {
-  background-image: url("../assets/imgs/sky.jpeg");
+  background-image: url("../assets/imgs/topog.jpg");
   height: 100%;
   grid-area: welcome;
   padding-bottom: 35%;
